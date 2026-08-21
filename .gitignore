@@ -1,0 +1,24 @@
+# Nextflow runtime artifacts
+work/
+.nextflow/
+.nextflow.log*
+
+# Bactopia / conda environments and caches
+conda/
+singularity/
+*.sif
+*.img
+
+# Sequencing data — too large for git
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+*.bam
+*.sam
+*.cram
+*.vcf.gz
+
+# OS / editor cruft
+.DS_Store
+*.swp
